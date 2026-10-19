@@ -1,4 +1,10 @@
 import csv
+
+# Klassen representerar ett supportärende.
+# Varje ärende har id, kund, kategori, prioritet och status.
+# Metoden visa_info visar information om ärendet.
+# CSV-filen läses utanför klassen.
+
 class SupportArende:
  
     def __init__(self, id, kund, kategori, prioritet, status):
